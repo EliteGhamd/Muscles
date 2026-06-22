@@ -305,7 +305,7 @@
     </div>
   </div>
 
-  <div class="copyright">© 2026 <span id="cpName">[Your Name]</span> · All rights reserved</div>
+  <div class="copyright">© 2026 <span id="cpName">[Created by Eng. Albaraa Alghamdi · 2026]</span> · All rights reserved</div>
 
   <nav class="tabs">
     <button class="on" data-tab="today"><svg viewBox="0 0 24 24"><path d="M3 12l9-9 9 9"/><path d="M5 10v10h14V10"/></svg>Today</button>
@@ -792,8 +792,8 @@ document.getElementById('guestBtn').onclick=()=>afterAuth({uid:'guest',name:'Gue
 
 /* ================= BOOT ================= */
 (function boot(){
-  /* === Change this to your name to update the footer everywhere === */
-  var COPYRIGHT_NAME = "[Your Name]";
+  /* === Change this to Created by Eng. Albaraa Alghamdi · 2026 to update the footer everywhere === */
+  var COPYRIGHT_NAME = "[Created by Eng. Albaraa Alghamdi · 2026]";
   var cp=document.getElementById('cpName'); if(cp) cp.textContent=COPYRIGHT_NAME;
   const configured=initFirebase();
   if(configured && fbAuth){
